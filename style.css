@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 10.24px;
+}
+
+nav {
+    display: flex;
+    background: #F55A5A;
+    padding: 0.5em;
+}
+
+nav h4 {
+    font-size: 14.46px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.25em;
+    margin: 0 auto;
+    color: #fff;
+}
+
+div.location {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    gap: 5px;
+}
+
+div.location a {
+    color: #918E9B;
+}
+
+div.location a:hover,
+div.location a:focus {
+    color: blue;
+}
+
+div.location p {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+div.card h1 {
+    margin: 0;
+}
+
+div.card {
+    display: flex;
+    margin: 40px;
+    height: 168px;
+    max-width: 471px;
+    gap: 1.5em;
+}
+
+.travel-photo {
+    width: 125px;
+    border-radius: 5px;
+}
+
+p.date {
+    font-weight: bold;
+}
+
+.loc-icon {
+    color: #F55A5A;
+}
